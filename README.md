@@ -24,11 +24,11 @@ My starting point was thinking of how to approach the data structure. Traditiona
 
 Next, I tried to see what the data structure would look like if I defined the edges instead. In my first iteration of this approach I mapped out the edges as they run on the rectangle in a counter clockwise direction starting from the lower left vertex. My initial data structure looked something like this:
 
-&nbsp;&nbsp;&nbsp;&#8594;
+&nbsp;&nbsp;&nbsp;&nbsp;&#8594;
 
 &#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;
 
-&nbsp;&nbsp;&nbsp;&#8592;
+&nbsp;&nbsp;&nbsp;&nbsp;&#8592;
 
 ```
     y      x      y      x
