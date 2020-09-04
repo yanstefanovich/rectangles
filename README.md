@@ -47,4 +47,12 @@ Next, I tried to see what the data structure would look like if I defined the ed
  ```
  The result is a smaller/simplified data set over the vertex method and in my opinion it is also easier to digest.
 
- ## Intersection
+## Containment
+
+I started with contaiment first; at a glance it looked the easiest to tackle out of the three. On paper, I drew 2 rectangles and mapped out their data sets. 
+![Containment data set](images/containment-data-set.png)
+I very quickly noticed that for containment to be true, all of the x coordinates of one rectangle, must be contained in the range/set of x coordinates of the other rectangle. The same was true for the y coordinates. 
+
+For readability, I broke the algorithm down into 2 functions. The first function does the line comparison given 2 sets of coordinates to see if the set of line_1 (first arg) is contained by set of line_2 (second arg). The second function uses the line containment function to perform the containment check &mdash; it checks if x and y satisfies line containment of the first rectangle (first arg) into the second rectangle (second arg) OR vice-versa.
+
+## Intersection
